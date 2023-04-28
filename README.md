@@ -1,7 +1,7 @@
 # CBPhotoelectricBarrier
 This is the repository for the paper "A Novel Inexpensive Camera-based Photoelectric Barrier System for Accurate Flying Sprint Time Measurement". It shows how the build cost-effective photoelectric barriers based on consumer grade electronic components with an accuracy on par with professional time measurement systems. The repository contains building plans for the devices, software for the microcontroller, and the Android app required for controlling the system and display the time measurements.
 
-<table style="margin-left:auto;margin-right:auto;">
+<table style="margin-left:auto;margin-right:auto">
     <tr>
         <td> <img src="Documentation/PhotoelectricBarrierPlaced.webp" alt="Photoelectric Barrier Placed" height="250px"/> </td>
         <td> <img src="Documentation/ScreenMeasuring.webp" alt="Screenshot of Android App" height="250px"/> </td>
@@ -11,7 +11,7 @@ This is the repository for the paper "A Novel Inexpensive Camera-based Photoelec
 ## Building the Photoelectric Barriers
 The following image shows the wiring schematics. The upper left part is the RGB-LED that indicates the current status of the barrier (standby, ready, etc.). The lower part shows the power supply including a voltage divider to measure the battery status. 
 <p align="center">
-    <img src="Documentation/PhotoelectricBarrierSchematic.webp" alt="Photoelectric Barriers Schematics" />
+    <img src="Documentation/PhotoelectricBarrierSchematic.webp" alt="Photoelectric Barriers Schematics" width="50%"/>
 </p>
 
 In order to build the photoelectric barriers you will need the depicted modules and connect them according to the schematics by soldering. 
