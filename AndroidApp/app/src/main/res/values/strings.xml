@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TF Champion</string>
+
+    <!-- Used by sprint layouts -->
+    <string name="sprint_tabi_calibration">Kalibrierung</string>
+    <string name="sprint_tabi_capture">Aufnahme</string>
+    <string name="sprint_tabi_evaluation">Auswertung</string>
+
+    <string name="sprint_tabi_flap">Startklappe</string>
+    <string name="sprint_tabi_records">Aufzeichnungen</string>
+    <string name="sprint_tabi_config">Einstellungen</string>
+
+
+    <!-- Used by sprint capture layout -->
+    <string name="sprint_capture_btn_cmd_start_camera">Verbinde Camera</string>
+    <string name="sprint_capture_btn_cmd_calibrate">Kalibriere Ziellinie</string>
+    <string name="sprint_capture_btn_cmd_calibrating">Kalibrierung läuft...</string>
+    <string name="sprint_capture_btn_cmd_recalibrate">Erneut Kalibrieren</string>
+    <string name="sprint_capture_btn_cmd_start_race">Starte Rennen</string>
+    <string name="sprint_capture_btn_cmd_stop">Beende Aufzeichung</string>
+    <string name="sprint_capture_btn_cmd_generating_photofinish">Erstelle Zielfoto...</string>
+
+    <!-- Used by sprint flap layout -->
+    <string name="sprint_flap_btn_connect">Verbinde</string>
+    <string name="sprint_flap_btn_search">Suche Geräte</string>
+    <string name="title_activity_flying_run_main">FlyingRunMain</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

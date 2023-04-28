@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SprintMain">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_sprint_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabi_sprint_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sprint_tabi_capture" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabi_sprint_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sprint_tabi_evaluation"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabi_sprint_flap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sprint_tabi_flap"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/lay_sprint_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab_sprint_main"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="148dp">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
