@@ -36,7 +36,18 @@ This project was originally developed at Chemnitz University of Technology and f
 
 ## How to cite
 
-(Preprint not yet available)
+	Uhlmann, T., Bräuer, S., Zaumseil, F., and Brunnett, G. (2023). A novel inexpensive camera-based photoelectric barrier system for accurate flying sprint time measurement. Technical Report CSR-23-04, Chemnitz University of Technology. https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-850240.
+<br>
+
+	@techreport{CBBarriers,
+	  author          = {Tom Uhlmann and Sabrina Bräuer and Falk Zaumseil and Guido Brunnett},
+	  journal         = {Chemnitzer Informatik-Berichte},
+	  number          = {CSR-23-04},
+	  title           = {A Novel Inexpensive Camera-based Photoelectric Barrier System for Accurate Flying Sprint Time Measurement},
+	  year            = {2023},
+	  institution     = {Chemnitz University of Technology},
+	  note            = {https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-850240}
+	}
 
 
 
